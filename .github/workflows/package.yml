@@ -24,16 +24,6 @@ jobs:
           key: poetry-venv-${{ runner.os }}-${{ steps.python-version.outputs.version }}
       - name: Install/update package and dependencies
         run: poetry install
-      - name: Create release ${{ steps.tag.outputs.tag }}
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.tag.outputs.tag }}
-          release_name: ${{ steps.tag.outputs.tag }}
-          draft: "false"
-          prerelease: "false"
       - name: Build and publish to PyPi
         env:
           POETRY_PYPI_TOKEN_PYPI: ${{ secrets.PYPI_API_TOKEN }}
