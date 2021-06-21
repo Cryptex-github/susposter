@@ -1,3 +1,2 @@
-from .susposter import sussy
-
-sussy()
+def sussy():
+  print("so sussy")
