@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "susposter"
-version = "1.4.3"
+version = "1.5.3"
 readme = "README.md"
 description = "so sussy"
 repository = "https://github.com/Cryptex-github"
