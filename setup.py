@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='susposter',
       author="Cryptex",
-      version="1.3.9,
+      version="1.3.9",
       description="so sussy",
       long_description="sussy imposter",
       url="https://github.com/Cryptex-github/susposter",
