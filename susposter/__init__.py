@@ -7,7 +7,7 @@ def sussy():
   return "so sussy"
 
 def sus():
-  return BytesIO(open("susposter/susposter.png", "rb").read())
+  return BytesIO(open("./susposter/susposter.png", "rb").read())
 
 def amongus():
-  return BytesIO(open("susposter/sussy.png", "rb").read())
+  return BytesIO(open("./susposter/sussy.png", "rb").read())
