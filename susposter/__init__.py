@@ -7,7 +7,9 @@ def sussy():
   return "so sussy"
 
 def sus():
-  return BytesIO(open("./susposter/susposter.png", "rb").read())
+  print("https://github.com/Cryptex-github/susposter/raw/main/susposter/susposter.png")
+  return "https://github.com/Cryptex-github/susposter/raw/main/susposter/susposter.png"
 
 def amongus():
-  return BytesIO(open("./susposter/sussy.png", "rb").read())
+  print("https://github.com/Cryptex-github/susposter/raw/main/susposter/sussy.png")
+  return "https://github.com/Cryptex-github/susposter/raw/main/susposter/sussy.png"
