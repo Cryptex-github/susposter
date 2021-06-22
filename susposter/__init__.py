@@ -1,6 +1,6 @@
 from io import BytesIO
 
-__version__ = "1.11.4"
+__version__ = "1.11.5"
 
 def sussy():
   print("so sussy")
